@@ -331,7 +331,7 @@ while True: #Loop To continue program or end
     AnyKey = input("Press any key to Continue....")
 
     # Customer Receipt Output
-
+    print()
     print(f"{' '* 26}One Stop Insurance ")
     print(f"{' '*26} Customer Receipt ")
     print()
@@ -425,7 +425,7 @@ while True: #Loop To continue program or end
 
     if Continue == "N":
         print()
-        print("Closing Program ", end="")
+        print("Closing New Insurance Policy Information System ", end="")
         for wait in range(1, 11):
             print('*', end=' ')
             time.sleep(.2)
@@ -452,6 +452,7 @@ AnyKey = input("Press any key to see Details Report....")
 
 # This is the the (Detailed Report)
 Today = datetime.datetime.now().date()
+print()
 print("ONE STOP INSURANCE COMPANY")
 print(f"POLICY LISTINGS AS OF {Today.strftime('%d-%b-%y')}")
 print()
