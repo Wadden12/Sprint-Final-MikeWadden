@@ -604,4 +604,4 @@ for CustomerData in f:
 f.close()
 print("=" * 73)
 print(f"Total Policies: {Policies_Acc:3}{' ' * 11} {As_Dollars_Pad(Premium_Acc)} {As_Dollars_Pad(Hst_Acc)}"
-      f"{As_Dollars_Pad(Total_Acc)}  {As_Dollars_Pad(Monthly_Acc)}")
+      f" {As_Dollars_Pad(Total_Acc)} {As_Dollars_Pad(Monthly_Acc)}")
